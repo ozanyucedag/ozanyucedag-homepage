@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Logo.png">
     <title>Ozan Yücedag</title>
-    <script src="translations.js" defer></script>
+    <script src="translations.js"></script>
 </head>
 <style>
    
@@ -109,6 +109,11 @@ img {
     <p data-translate="airpods">Apple Airpods</p>
     </div>
 
-    
+    <script>
+        // Ensure translations are applied when the page loads
+        if (typeof initializeLanguage === 'function') {
+            initializeLanguage();
+        }
+    </script>
 </body>
 </html>

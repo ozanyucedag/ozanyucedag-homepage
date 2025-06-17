@@ -59,6 +59,16 @@ function updateContent() {
 
 // Initialize language on page load
 document.addEventListener('DOMContentLoaded', function() {
+    initializeLanguage();
+});
+
+// Also run on window load to ensure it works
+window.onload = function() {
+    initializeLanguage();
+};
+
+// Function to initialize language
+function initializeLanguage() {
     // Check if user has a saved preference
     const savedLanguage = localStorage.getItem('preferredLanguage');
     if (savedLanguage) {
@@ -66,4 +76,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     updateContent();
-});
+}

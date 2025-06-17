@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Logo.png">
     <title>Ozan Yücedag</title>
-    <script src="translations.js" defer></script>
+    <script src="translations.js"></script>
 </head>
 <style>
    
@@ -107,5 +107,12 @@
         <div class="email-me">     
         <a href="mailto:ozanyucedah@aol.com" target="_blank" style="color: #000000">&#10143; <span data-translate="email">Email me</span></a>
         </div>
+        
+    <script>
+        // Ensure translations are applied when the page loads
+        if (typeof initializeLanguage === 'function') {
+            initializeLanguage();
+        }
+    </script>
 </body>
 </html>

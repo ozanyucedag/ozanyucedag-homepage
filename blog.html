@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Logo.png">
     <title>Ozan Yücedag</title>
-    <script src="translations.js" defer></script>
+    <script src="translations.js"></script>
 </head>
 <style>
    
@@ -86,5 +86,11 @@
 <div class="blog">
     <h2><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" data-translate="blog">Blog</span></h2>
 </div>
+    <script>
+        // Ensure translations are applied when the page loads
+        if (typeof initializeLanguage === 'function') {
+            initializeLanguage();
+        }
+    </script>
 </body>
 </html>
