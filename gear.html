@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Logo.png">
     <title>Ozan Yücedag</title>
+    <script src="translations.js" defer></script>
 </head>
 <style>
    
@@ -83,9 +84,10 @@ img {
         <div class="profil" span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
 
         <li><a class="active" href="index.html"><img src="Logo.png" alt="Home" style="width:42px;height:42px;"></a></li>
-        <li style="float:right"><a class="active" href="gear.html">Gear</a></li>
-        <li style="float:right"><a class="active" href="blog.html">Blog</a></li>
-        <li style="float:right"><a class="active" href="about.html">About</a></li>
+        <li style="float:right"><a id="language-toggle" class="active" href="javascript:void(0);" onclick="toggleLanguage()" data-translate="language">Deutsch</a></li>
+        <li style="float:right"><a class="active" href="gear.html" data-translate="gear">Gear</a></li>
+        <li style="float:right"><a class="active" href="blog.html" data-translate="blog">Blog</a></li>
+        <li style="float:right"><a class="active" href="about.html" data-translate="about">About</a></li>
         </span>
       </ul>
 <br>
@@ -94,17 +96,17 @@ img {
 <br>
      
 <div class="profil-gear">
-    <h2><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Gear</span></h2>
-    <div><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">This is the Gear i use.</span></div>
+    <h2><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" data-translate="gear_title">Gear</span></h2>
+    <div><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" data-translate="gear_info">This is the Gear I use.</span></div>
     <br>
     <br>
     <div class="circular--square">
     <img src="macbook.jpg" alt="bewerbungsfoto"  style="width: 5vw; min-width: 95px;">
-    <p>MacBook Pro</p>
+    <p data-translate="macbook">MacBook Pro</p>
     <br>
     <br>
     <img src="Kopfhörer.jpg" alt="bewerbungsfoto"  style="width: 5vw; min-width: 100px; height: 80px;">
-    <p>Apple Airpods</p>
+    <p data-translate="airpods">Apple Airpods</p>
     </div>
 
     

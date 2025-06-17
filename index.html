@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Logo.png">
     <title>Ozan Yücedag</title>
+    <script src="translations.js" defer></script>
 </head>
 <style>
    
@@ -80,9 +81,10 @@
         <div class="profil" span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
 
         <li><a class="active" href="index.html"><img src="Logo.png" alt="Home" style="width:42px;height:42px;"></a></li>
-        <li style="float:right"><a class="active" href="gear.html">Gear</a></li>
-        <li style="float:right"><a class="active" href="blog.html">Blog</a></li>
-        <li style="float:right"><a class="active" href="about.html">About</a></li>
+        <li style="float:right"><a id="language-toggle" class="active" href="javascript:void(0);" onclick="toggleLanguage()" data-translate="language">Deutsch</a></li>
+        <li style="float:right"><a class="active" href="gear.html" data-translate="gear">Gear</a></li>
+        <li style="float:right"><a class="active" href="blog.html" data-translate="blog">Blog</a></li>
+        <li style="float:right"><a class="active" href="about.html" data-translate="about">About</a></li>
         </span>
       </ul>
       
@@ -93,16 +95,17 @@
 
       <div class="profil">
         
-        <h2><span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Ozan Yücedag</span></h2>
+        <h2><span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" data-translate="name">Ozan Yücedag</span></h2>
         <img class="circular--square" src="Bewerbungsfoto.png" alt="bewerbungsfoto" style="width: 5vw; min-width: 100px;" />
         <br>
         <br>
-        <div><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Im a information processor and currently studying Software development.<br>
-             Im also an certified Data protection specialist.
+        <div><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" data-translate="description">I'm an information processor and currently studying Software development.<br>
+             I'm also a certified Data protection specialist.
+        </span></div>
         <br>
         <br>
         <div class="email-me">     
-        <a href="mailto:ozanyucedah@aol.com" target="_blank" style="color: #000000" >&#10143; Email me</span></a>
+        <a href="mailto:ozanyucedah@aol.com" target="_blank" style="color: #000000">&#10143; <span data-translate="email">Email me</span></a>
         </div>
 </body>
 </html>
