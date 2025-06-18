@@ -14,9 +14,8 @@ git add .
 git commit -m "Initial website commit"
 
 # Add your GitHub repository as remote
-# Replace YOUR_USERNAME and YOUR_REPO_NAME with your actual GitHub username and repository name
-# Example: git remote add origin https://github.com/ozanyucedag/homepage.git
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+# Replace with your actual GitHub username and repository name
+git remote add origin https://github.com/ozanyucedag/ozanyucedag.github.io.git
 
 # Push to GitHub
 git branch -M main
