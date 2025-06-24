@@ -16,7 +16,13 @@ const translations = {
         'airpods': 'Apple Airpods',
         'blog_post_title': 'Website Launch',
         'blog_post_date': 'December 19, 2024',
-        'blog_post_content': 'Welcome to my personal website! This page was created to showcase my work and share my journey in software development. The site features information about me, my gear, and will include future blog posts about my projects and experiences.'
+        'blog_post_content': 'Welcome to my personal website! This page was created to showcase my work and share my journey in software development. The site features information about me, my gear, and will include future blog posts about my projects and experiences.',
+        'timeline_2024': 'May 2024 - Present',
+        'timeline_2024_desc': 'Studying Software Development',
+        'timeline_2023': 'April 2023',
+        'timeline_2023_desc': 'Became certified Data Protection Specialist',
+        'timeline_2015': 'July 2015',
+        'timeline_2015_desc': 'Finished school education in Information Processing with Database and HTML content'
     },
     'de': {
         'gear': 'Ausrüstung',
@@ -34,7 +40,13 @@ const translations = {
         'airpods': 'Apple Airpods',
         'blog_post_title': 'Website-Start',
         'blog_post_date': '19. Dezember 2024',
-        'blog_post_content': 'Willkommen auf meiner persönlichen Website! Diese Seite wurde erstellt, um meine Arbeit zu präsentieren und meine Reise in der Softwareentwicklung zu teilen. Die Website enthält Informationen über mich, meine Ausrüstung und wird zukünftige Blog-Beiträge über meine Projekte und Erfahrungen enthalten.'
+        'blog_post_content': 'Willkommen auf meiner persönlichen Website! Diese Seite wurde erstellt, um meine Arbeit zu präsentieren und meine Reise in der Softwareentwicklung zu teilen. Die Website enthält Informationen über mich, meine Ausrüstung und wird zukünftige Blog-Beiträge über meine Projekte und Erfahrungen enthalten.',
+        'timeline_2024': 'Mai 2024 - Heute',
+        'timeline_2024_desc': 'Studium der Softwareentwicklung',
+        'timeline_2023': 'April 2023',
+        'timeline_2023_desc': 'Zertifizierter Datenschutzspezialist geworden',
+        'timeline_2015': 'Juli 2015',
+        'timeline_2015_desc': 'Schulausbildung in Informationsverarbeitung mit Datenbank und HTML-Inhalten abgeschlossen'
     }
 };
 
