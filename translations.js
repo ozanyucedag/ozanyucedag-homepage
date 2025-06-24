@@ -13,7 +13,10 @@ const translations = {
         'gear_title': 'Gear',
         'gear_info': 'This is the Gear I use.',
         'macbook': 'MacBook Pro',
-        'airpods': 'Apple Airpods'
+        'airpods': 'Apple Airpods',
+        'blog_post_title': 'Website Launch',
+        'blog_post_date': 'December 19, 2024',
+        'blog_post_content': 'Welcome to my personal website! This page was created to showcase my work and share my journey in software development. The site features information about me, my gear, and will include future blog posts about my projects and experiences.'
     },
     'de': {
         'gear': 'Ausrüstung',
@@ -28,7 +31,10 @@ const translations = {
         'gear_title': 'Ausrüstung',
         'gear_info': 'Das ist die Ausrüstung, die ich benutze.',
         'macbook': 'MacBook Pro',
-        'airpods': 'Apple Airpods'
+        'airpods': 'Apple Airpods',
+        'blog_post_title': 'Website-Start',
+        'blog_post_date': '19. Dezember 2024',
+        'blog_post_content': 'Willkommen auf meiner persönlichen Website! Diese Seite wurde erstellt, um meine Arbeit zu präsentieren und meine Reise in der Softwareentwicklung zu teilen. Die Website enthält Informationen über mich, meine Ausrüstung und wird zukünftige Blog-Beiträge über meine Projekte und Erfahrungen enthalten.'
     }
 };
 
