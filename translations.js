@@ -47,9 +47,7 @@ const translations = {
         'timeline_2023_desc': 'Zertifizierter Datenschutzspezialist in Deutschland geworden',
         'timeline_2015': 'Juli 2015',
         'timeline_2015_desc': 'Schulausbildung in Informationsverarbeitung mit Datenbank und HTML-Inhalten in Deutschland abgeschlossen'
-    }
-};
-
+    },
     'tr': {
         'gear': 'Ekipman',
         'blog': 'Blog',
