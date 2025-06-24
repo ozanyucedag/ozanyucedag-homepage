@@ -7,7 +7,7 @@ const translations = {
         'name': 'Ozan Yücedag',
         'description': 'I\'m an information processor and currently studying Software development.\nI\'m also a certified Data protection specialist.',
         'email': 'Email me',
-        'language': 'Deutsch',
+        'language': 'Language',
         'about_title': 'About me',
         'about_info': 'Here are some Information about me.',
         'gear_title': 'Gear',
@@ -18,11 +18,11 @@ const translations = {
         'blog_post_date': 'December 19, 2024',
         'blog_post_content': 'Welcome to my personal website! This page was created to showcase my work and share my journey in software development. The site features information about me, my gear, and will include future blog posts about my projects and experiences.',
         'timeline_2024': 'May 2024 - Present',
-        'timeline_2024_desc': 'Studying Software Development',
+        'timeline_2024_desc': 'Studying Software Development in Darmstadt, Germany',
         'timeline_2023': 'April 2023',
-        'timeline_2023_desc': 'Became certified Data Protection Specialist',
+        'timeline_2023_desc': 'Became certified Data Protection Specialist in Germany',
         'timeline_2015': 'July 2015',
-        'timeline_2015_desc': 'Finished school education in Information Processing with Database and HTML content'
+        'timeline_2015_desc': 'Finished school education in Information Processing with Database and HTML content in Germany'
     },
     'de': {
         'gear': 'Ausrüstung',
@@ -31,7 +31,7 @@ const translations = {
         'name': 'Ozan Yücedag',
         'description': 'Ich bin Informationsverarbeiter und studiere derzeit Softwareentwicklung.\nIch bin außerdem zertifizierter Datenschutzspezialist.',
         'email': 'E-Mail senden',
-        'language': 'English',
+        'language': 'Sprache',
         'about_title': 'Über mich',
         'about_info': 'Hier sind einige Informationen über mich.',
         'gear_title': 'Ausrüstung',
@@ -42,24 +42,67 @@ const translations = {
         'blog_post_date': '19. Dezember 2024',
         'blog_post_content': 'Willkommen auf meiner persönlichen Website! Diese Seite wurde erstellt, um meine Arbeit zu präsentieren und meine Reise in der Softwareentwicklung zu teilen. Die Website enthält Informationen über mich, meine Ausrüstung und wird zukünftige Blog-Beiträge über meine Projekte und Erfahrungen enthalten.',
         'timeline_2024': 'Mai 2024 - Heute',
-        'timeline_2024_desc': 'Studium der Softwareentwicklung',
+        'timeline_2024_desc': 'Studium der Softwareentwicklung in Darmstadt, Deutschland',
         'timeline_2023': 'April 2023',
-        'timeline_2023_desc': 'Zertifizierter Datenschutzspezialist geworden',
+        'timeline_2023_desc': 'Zertifizierter Datenschutzspezialist in Deutschland geworden',
         'timeline_2015': 'Juli 2015',
-        'timeline_2015_desc': 'Schulausbildung in Informationsverarbeitung mit Datenbank und HTML-Inhalten abgeschlossen'
+        'timeline_2015_desc': 'Schulausbildung in Informationsverarbeitung mit Datenbank und HTML-Inhalten in Deutschland abgeschlossen'
+    }
+};
+
+    'tr': {
+        'gear': 'Ekipman',
+        'blog': 'Blog',
+        'about': 'Hakkımda',
+        'name': 'Ozan Yücedag',
+        'description': 'Bilgi işlemcisiyim ve şu anda Yazılım geliştirme okuyorum.\nAyrıca sertifikalı Veri koruma uzmanıyım.',
+        'email': 'E-posta gönder',
+        'language': 'Dil',
+        'about_title': 'Hakkımda',
+        'about_info': 'Hakkımda bazı bilgiler.',
+        'gear_title': 'Ekipman',
+        'gear_info': 'Kullandığım ekipman.',
+        'macbook': 'MacBook Pro',
+        'airpods': 'Apple Airpods',
+        'blog_post_title': 'Website Başlangıcı',
+        'blog_post_date': '19 Aralık 2024',
+        'blog_post_content': 'Kişisel web siteme hoş geldiniz! Bu sayfa çalışmalarımı sergilemek ve yazılım geliştirmedeki yolculuğumu paylaşmak için oluşturuldu. Site hakkımda bilgiler, ekipmanlarım ve projelerim ve deneyimlerim hakkında gelecekteki blog yazıları içerecek.',
+        'timeline_2024': 'Mayıs 2024 - Şimdi',
+        'timeline_2024_desc': 'Darmstadt, Almanya\'da Yazılım Geliştirme okuyor',
+        'timeline_2023': 'Nisan 2023',
+        'timeline_2023_desc': 'Almanya\'da sertifikalı Veri Koruma Uzmanı oldu',
+        'timeline_2015': 'Temmuz 2015',
+        'timeline_2015_desc': 'Almanya\'da Veritabanı ve HTML içeriği ile Bilgi İşleme okul eğitimini tamamladı'
     }
 };
 
 // Current language
 let currentLanguage = 'en';
 
-// Function to toggle language
-function toggleLanguage() {
-    currentLanguage = currentLanguage === 'en' ? 'de' : 'en';
+// Function to change language
+function changeLanguage(lang) {
+    currentLanguage = lang;
     updateContent();
+    updateLanguageDropdown();
     
     // Save language preference
     localStorage.setItem('preferredLanguage', currentLanguage);
+}
+
+// Function to update language dropdown
+function updateLanguageDropdown() {
+    const dropdown = document.getElementById('language-dropdown');
+    if (dropdown) {
+        dropdown.style.display = 'none';
+    }
+}
+
+// Function to toggle dropdown
+function toggleDropdown() {
+    const dropdown = document.getElementById('language-dropdown');
+    if (dropdown) {
+        dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+    }
 }
 
 // Function to update content based on selected language
@@ -70,9 +113,6 @@ function updateContent() {
             element.innerHTML = translations[currentLanguage][key];
         }
     });
-    
-    // Update language button text
-    document.getElementById('language-toggle').innerHTML = translations[currentLanguage]['language'];
 }
 
 // Initialize language on page load
