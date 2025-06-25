@@ -5,7 +5,7 @@ const translations = {
         'blog': 'Blog',
         'about': 'About',
         'name': 'Ozan Yücedag',
-        'description': 'I\'m an information processor and currently studying Software development.\nI\'m also a certified Data protection specialist.',
+        'description': 'I\'m an information processor and currently studying Software development.\nI\'m also an IHK certified Data protection specialist.'
         'email': 'Email me',
         'language': 'Language',
         'about_title': 'About me',
@@ -20,7 +20,7 @@ const translations = {
         'timeline_2024': 'May 2024 - Present',
         'timeline_2024_desc': 'Studying Software Development in Darmstadt, Germany',
         'timeline_2023': 'April 2023',
-        'timeline_2023_desc': 'Became certified Data Protection Specialist in Germany',
+        'timeline_2023_desc': 'Became IHK certified Data Protection Specialist in Germany',
         'timeline_2015': 'July 2015',
         'timeline_2015_desc': 'Finished school education in Information Processing with Database and HTML content in Germany'
     },
@@ -29,7 +29,7 @@ const translations = {
         'blog': 'Blog',
         'about': 'Über mich',
         'name': 'Ozan Yücedag',
-        'description': 'Ich bin Informationsverarbeiter und studiere derzeit Softwareentwicklung.\nIch bin außerdem zertifizierter Datenschutzspezialist.',
+        'description': 'Ich bin Informationsverarbeiter und studiere derzeit Softwareentwicklung.\nIch bin außerdem IHK zertifizierter Datenschutzspezialist.'
         'email': 'E-Mail senden',
         'language': 'Sprache',
         'about_title': 'Über mich',
@@ -44,7 +44,7 @@ const translations = {
         'timeline_2024': 'Mai 2024 - Heute',
         'timeline_2024_desc': 'Studium der Softwareentwicklung in Darmstadt, Deutschland',
         'timeline_2023': 'April 2023',
-        'timeline_2023_desc': 'Zertifizierter Datenschutzspezialist in Deutschland geworden',
+        'timeline_2023_desc': 'IHK zertifizierter Datenschutzspezialist in Deutschland geworden',
         'timeline_2015': 'Juli 2015',
         'timeline_2015_desc': 'Schulausbildung in Informationsverarbeitung mit Datenbank und HTML-Inhalten in Deutschland abgeschlossen'
     },
@@ -53,7 +53,7 @@ const translations = {
         'blog': 'Blog',
         'about': 'Hakkımda',
         'name': 'Ozan Yücedag',
-        'description': 'Bilgi işlemcisiyim ve şu anda Yazılım geliştirme okuyorum.\nAyrıca sertifikalı Veri koruma uzmanıyım.',
+        'description': 'Bilgi işlemcisiyim ve şu anda Yazılım geliştirme okuyorum.\nAyrıca IHK sertifikalı Veri koruma uzmanıyım.',
         'email': 'E-posta gönder',
         'language': 'Dil',
         'about_title': 'Hakkımda',
@@ -68,7 +68,7 @@ const translations = {
         'timeline_2024': 'Mayıs 2024 - Şimdi',
         'timeline_2024_desc': 'Darmstadt, Almanya\'da Yazılım Geliştirme okuyor',
         'timeline_2023': 'Nisan 2023',
-        'timeline_2023_desc': 'Almanya\'da sertifikalı Veri Koruma Uzmanı oldu',
+        'timeline_2023_desc': 'Almanya\'da IHK sertifikalı Veri Koruma Uzmanı oldu',
         'timeline_2015': 'Temmuz 2015',
         'timeline_2015_desc': 'Almanya\'da Veritabanı ve HTML içeriği ile Bilgi İşleme okul eğitimini tamamladı'
     }
