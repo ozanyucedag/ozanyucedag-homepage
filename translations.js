@@ -19,7 +19,7 @@ const translations = {
         'blog_post_content': 'Welcome to my personal website! This page was created to showcase my work and share my journey in software development. The site features information about me, my gear, and will include future blog posts about my projects and experiences.',
         'timeline_2024': 'May 2024 - Present',
         'timeline_2024_desc': 'Studying Software Development in Darmstadt, Germany',
-        'timeline_2023': 'April 2023',
+        'timeline_2023': 'May 2023',
         'timeline_2023_desc': 'Became IHK certified Data Protection Specialist in Germany',
         'timeline_2015': 'July 2015',
         'timeline_2015_desc': 'Finished school education in Information Processing with Database and HTML content in Germany'
@@ -43,7 +43,7 @@ const translations = {
         'blog_post_content': 'Willkommen auf meiner persönlichen Website! Diese Seite wurde erstellt, um meine Arbeit zu präsentieren und meine Reise in der Softwareentwicklung zu teilen. Die Website enthält Informationen über mich, meine Ausrüstung und wird zukünftige Blog-Beiträge über meine Projekte und Erfahrungen enthalten.',
         'timeline_2024': 'Mai 2024 - Heute',
         'timeline_2024_desc': 'Studium der Softwareentwicklung in Darmstadt, Deutschland',
-        'timeline_2023': 'April 2023',
+        'timeline_2023': 'Mai 2023',
         'timeline_2023_desc': 'IHK zertifizierter Datenschutzspezialist in Deutschland geworden',
         'timeline_2015': 'Juli 2015',
         'timeline_2015_desc': 'Schulausbildung in Informationsverarbeitung mit Datenbank und HTML-Inhalten in Deutschland abgeschlossen'
@@ -67,7 +67,7 @@ const translations = {
         'blog_post_content': 'Kişisel web siteme hoş geldiniz! Bu sayfa çalışmalarımı sergilemek ve yazılım geliştirmedeki yolculuğumu paylaşmak için oluşturuldu. Site hakkımda bilgiler, ekipmanlarım ve projelerim ve deneyimlerim hakkında gelecekteki blog yazıları içerecek.',
         'timeline_2024': 'Mayıs 2024 - Şimdi',
         'timeline_2024_desc': 'Darmstadt, Almanya\'da Yazılım Geliştirme okuyor',
-        'timeline_2023': 'Nisan 2023',
+        'timeline_2023': 'Mayıs 2023',
         'timeline_2023_desc': 'Almanya\'da IHK sertifikalı Veri Koruma Uzmanı oldu',
         'timeline_2015': 'Temmuz 2015',
         'timeline_2015_desc': 'Almanya\'da Veritabanı ve HTML içeriği ile Bilgi İşleme okul eğitimini tamamladı'
