@@ -81,10 +81,24 @@ let currentLanguage = 'en';
 function changeLanguage(lang) {
     currentLanguage = lang;
     updateContent();
+    updateLanguageButton();
     updateLanguageDropdown();
     
     // Save language preference
     localStorage.setItem('preferredLanguage', currentLanguage);
+}
+
+// Function to update language button with current flag
+function updateLanguageButton() {
+    const button = document.getElementById('language-button');
+    if (button) {
+        const flags = {
+            'en': '🇺🇸',
+            'de': '🇩🇪',
+            'tr': '🇹🇷'
+        };
+        button.innerHTML = flags[currentLanguage] || '🇺🇸';
+    }
 }
 
 // Function to update language dropdown
@@ -132,4 +146,5 @@ function initializeLanguage() {
     }
     
     updateContent();
+    updateLanguageButton();
 }
