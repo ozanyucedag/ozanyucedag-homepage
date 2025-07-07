@@ -27,7 +27,7 @@ const translations = {
     'de': {
         'gear': 'Ausrüstung',
         'blog': 'Blog',
-        'about': 'Über mich',
+        'about': 'Info',
         'name': 'Ozan Yücedag',
         'description': 'Ich bin Informationsverarbeiter und studiere derzeit Softwareentwicklung.\nIch bin außerdem IHK zertifizierter Datenschutzspezialist.',
         'email': 'E-Mail senden',
