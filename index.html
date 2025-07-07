@@ -47,9 +47,35 @@
       padding: 14px 16px;
       text-decoration: none;
       color:inherit;
+      white-space: nowrap;
 
      
 
+    }
+    
+    @media (max-width: 768px) {
+      li a {
+        padding: 14px 4px;
+        font-size: 12px;
+      }
+      
+      ul {
+        white-space: nowrap;
+      }
+    }
+    
+    @media (max-width: 414px) {
+      li a {
+        padding: 14px 2px;
+        font-size: 11px;
+      }
+    }
+    
+    @media (max-width: 375px) {
+      li a {
+        padding: 14px 1px;
+        font-size: 10px;
+      }
     }
     
     li a:hover:not(.active) {
