@@ -55,7 +55,7 @@
     
 
     
-    @media (max-width: 430px) {
+    @media (max-width: 430px) and (orientation: landscape) {
       li a {
         padding: 14px 2px;
         font-size: 13px;
@@ -66,10 +66,14 @@
       }
     }
     
-    @media (max-width: 414px) {
+    @media (max-width: 430px) and (orientation: portrait) {
       li a {
         padding: 14px 1px;
-        font-size: 12px;
+        font-size: 15px;
+      }
+      
+      ul {
+        white-space: nowrap;
       }
     }
     
