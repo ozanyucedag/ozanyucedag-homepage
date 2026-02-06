@@ -8,10 +8,6 @@
     <script src="/translations.js?v=13"></script>
 </head>
 <style>
-   
-      
-
-
     body {margin:0;}
     
     ul {
@@ -31,22 +27,16 @@
     
     li {
       float: left;
-      
-      
     }
     
     li a {
       display: block;
-      
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
       color:inherit;
       white-space: nowrap;
-
     }
-    
-
     
     @media (max-width: 430px) and (orientation: landscape) {
       li a {
@@ -84,32 +74,16 @@
       background-color:none;
     }
     .profil {
-        
-        
         text-align: center;
     }
 
-    .profil-gear {
-    
-        
-    text-align: center;}
-
-    .circular--square { border-radius: 35%;
-                        display: block;
-                        margin-left: 200px;
-                        margin-right: auto;
-                        text-align:left;
-                        width:  100px;
-                        
-     }
+    .tech-stack {
+        text-align: center;
+    }
     a:link { text-decoration: none; }
     a:visited { text-decoration: none; }
     a:hover { text-decoration: underline; }
     a:active { text-decoration: underline; }
-img {
-  border-radius: 35%;
-}
-
     </style>
 <body>
     <ul>
@@ -130,25 +104,33 @@ img {
         <li style="float:right"><a class="active" href="about.html" data-translate="about">About</a></li>
         </span>
       </ul>
+      
 <br>
 <br>
 <br>
 <br>
-     
-<div class="profil-gear">
-    <h2><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" data-translate="gear_title">Gear</span></h2>
-    <div><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" data-translate="gear_info">This is the Gear I use.</span></div>
+<div class="tech-stack">
+    <h2><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" data-translate="techstack">Tech Stack</span></h2>
     <br>
-    <br>
-    <div class="circular--square">
-    <img src="/macbook.jpg" alt="bewerbungsfoto"  style="width: 5vw; min-width: 100px; height: 100px; object-fit: cover;">
-    <p data-translate="macbook">MacBook Pro</p>
-    <br>
-    <br>
-    <img src="/Kopfhörer.jpg" alt="bewerbungsfoto"  style="width: 5vw; min-width: 100px; height: 100px; object-fit: cover;">
-    <p data-translate="airpods">Apple Airpods</p>
+    <div style="max-width: 600px; margin: 0 auto; text-align: left; padding: 20px;">
+        <div style="border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 20px;">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 10px; color: #000; font-size: 18px;">Programming Languages</h3>
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin-bottom: 0;">Python, Java, HTML, SQL, JavaScript, PHP</p>
+        </div>
+        <div style="border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 20px;">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 10px; color: #000; font-size: 18px;">Databases</h3>
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin-bottom: 0;">Microsoft Access, Database Design & Management</p>
+        </div>
+        <div style="border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 20px;">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 10px; color: #000; font-size: 18px;">Tools & Technologies</h3>
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin-bottom: 0;">Git, GitHub, VS Code</p>
+        </div>
+        <div style="border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 20px;">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 10px; color: #000; font-size: 18px;">Specializations</h3>
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin-bottom: 0;">Data Protection & GDPR Compliance, Database Management, Web Development Basics</p>
+        </div>
     </div>
-
+</div>
     <script>
         // Ensure translations are applied when the page loads
         if (typeof initializeLanguage === 'function') {
