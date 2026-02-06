@@ -23,7 +23,16 @@ const translations = {
         'timeline_2023': 'April 2023',
         'timeline_2023_desc': 'Became IHK certified Data Protection Specialist in Germany',
         'timeline_2015': 'July 2015',
-        'timeline_2015_desc': 'Finished school education in Information Processing with Database and HTML content in Germany'
+        'timeline_2015_desc': 'Finished school education in Information Processing with Database and HTML content in Germany',
+        'techstack_title': 'Tech Stack',
+        'techstack_prog': 'Programming Languages',
+        'techstack_prog_list': 'Python, Java, HTML, SQL, JavaScript, PHP',
+        'techstack_db': 'Databases',
+        'techstack_db_list': 'Microsoft Access, Database Design & Management',
+        'techstack_tools': 'Tools & Technologies',
+        'techstack_tools_list': 'Git, GitHub, VS Code',
+        'techstack_spec': 'Specializations',
+        'techstack_spec_list': 'Data Protection & GDPR Compliance, Database Management, Web Development Basics'
     },
     'de': {
         'gear': 'Ausrüstung',
@@ -48,7 +57,16 @@ const translations = {
         'timeline_2023': 'April 2023',
         'timeline_2023_desc': 'IHK zertifizierter Datenschutzspezialist in Deutschland geworden',
         'timeline_2015': 'Juli 2015',
-        'timeline_2015_desc': 'Schulausbildung in Informationsverarbeitung mit Datenbank und HTML-Inhalten in Deutschland abgeschlossen'
+        'timeline_2015_desc': 'Schulausbildung in Informationsverarbeitung mit Datenbank und HTML-Inhalten in Deutschland abgeschlossen',
+        'techstack_title': 'Tech Stack',
+        'techstack_prog': 'Programmiersprachen',
+        'techstack_prog_list': 'Python, Java, HTML, SQL, JavaScript, PHP',
+        'techstack_db': 'Datenbanken',
+        'techstack_db_list': 'Microsoft Access, Datenbankdesign & -verwaltung',
+        'techstack_tools': 'Tools & Technologien',
+        'techstack_tools_list': 'Git, GitHub, VS Code',
+        'techstack_spec': 'Spezialisierungen',
+        'techstack_spec_list': 'Datenschutz & DSGVO-Compliance, Datenbankverwaltung, Webentwicklung Grundlagen'
     },
     'tr': {
         'gear': 'Ekipman',
@@ -73,7 +91,16 @@ const translations = {
         'timeline_2023': 'Nisan 2023',
         'timeline_2023_desc': 'Almanya\'da IHK sertifikalı Veri Koruma Uzmanı oldu',
         'timeline_2015': 'Temmuz 2015',
-        'timeline_2015_desc': 'Almanya\'da Veritabanı ve HTML içeriği ile Bilgi İşleme okul eğitimini tamamladı'
+        'timeline_2015_desc': 'Almanya\'da Veritabanı ve HTML içeriği ile Bilgi İşleme okul eğitimini tamamladı',
+        'techstack_title': 'Tech Stack',
+        'techstack_prog': 'Programlama Dilleri',
+        'techstack_prog_list': 'Python, Java, HTML, SQL, JavaScript, PHP',
+        'techstack_db': 'Veritabanları',
+        'techstack_db_list': 'Microsoft Access, Veritabanı Tasarımı & Yönetimi',
+        'techstack_tools': 'Araçlar & Teknolojiler',
+        'techstack_tools_list': 'Git, GitHub, VS Code',
+        'techstack_spec': 'Uzmanlıklar',
+        'techstack_spec_list': 'Veri Koruma & GDPR Uyumluluğu, Veritabanı Yönetimi, Web Geliştirme Temelleri'
     }
 };
 
